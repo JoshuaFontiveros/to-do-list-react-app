@@ -1,0 +1,79 @@
+/* Custom CSS */
+
+.border-black-5 {
+  border: 5px solid black;
+}
+.output-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.pending-task-done-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pending-task-done-container img {
+  width: 80%;
+  border-radius: 15px;
+  background-image: url('https://cdn.dribbble.com/users/559871/screenshots/2526996/media/7337a64e84074e548a037dc83c9dcab3.gif');
+  background-repeat: no-repeat;
+}
+/* End of Custom CSS */
+
+.nav-data {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-data:hover {
+  color: red;
+  transition: 0.3s all ease;
+}
+
+.nav-data:active {
+  color: yellow;
+}
+/* End of Custom CSS */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

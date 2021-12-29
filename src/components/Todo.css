@@ -1,0 +1,60 @@
+.main-container {
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.bg-color-to-do-list {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 5px;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+.to-do-list-container {
+  background-color: white;
+  width: 100%;
+}
+.margin-top-todo {
+  margin-top: 0.3px;
+}
+
+.task-and-textbox-container {
+  width: 80vw;
+}
+
+.task-and-textbox-container h2 {
+  margin-left: 20px;
+}
+
+.margin-left-top {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+span button {
+  margin: 5px 5px 5px 0;
+}
+
+label[for='task'] {
+  font-weight: bold;
+}
+
+.btn-save-item-container {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.btn-delete {
+  font-weight: bold;
+}
+
+.check,
+.delete {
+  border-radius: 50%;
+}
+
+.black {
+  color: black;
+}
