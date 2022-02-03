@@ -9,7 +9,7 @@ Features:
 
 Validations:
 
-* You can't add another task with the same name. Not case-sensitve.
+* You can't add another task with the same name. Not case-sensitive.
 
 ## Tech Stack
 
